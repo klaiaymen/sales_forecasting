@@ -1,0 +1,33 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données volumineuses et fichiers générés
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+mlruns/
+mlflow.db
+*.duckdb
+*.db
+*.log
+
+# Environnement local
+.env
+.env.*
+!.env.example
+
+# IDE et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Fichiers temporaires
+*.tmp
